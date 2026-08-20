@@ -63,6 +63,12 @@ export default function Day01() {
           streak={1}
           accent="blue"
         />
+        <ProfileCard
+          name="TEST NAME"
+          role="TEST"
+          streak={4}
+          accent="RED"
+        />
       </div>
     </DayShell>
   );
