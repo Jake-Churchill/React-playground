@@ -30,3 +30,4 @@ npm run dev
 | Day | Concept | Notes |
 |---|---|---|
 | 01 | Components & props | One `ProfileCard` component, called three times with different props |
+| 02 | State & useState | Three `Counter` instances, each holding independent state |
