@@ -65,6 +65,7 @@ export default function Day02() {
         <Counter label="by ones" step={1} accent="var(--color-amber)" />
         <Counter label="by fives" step={5} accent="var(--color-moss-bright)" />
         <Counter label="by tens" step={10} accent="var(--color-paper)" />
+        <Counter label="by twelves" step={12} accent="var(--color-ink)" />
       </div>
     </DayShell>
   );
