@@ -2,6 +2,7 @@ import Day01 from "../days/day01-components-props/Day01.jsx";
 import Day02 from "../days/day02-state-usestate/Day02.jsx";
 import Day03 from "../days/day03-lifting-state-up/Day03.jsx";
 import Day04 from "../days/day04-useeffect/Day04.jsx";
+import Day05 from "../days/day05-lists-keys/Day05.jsx";
 
 // Single source of truth for the home page log and the router.
 // Adding a day = new folder in src/days + one entry here.
@@ -41,5 +42,14 @@ export const days = [
     summary:
       "A stopwatch — using useEffect to start and clean up a setInterval side effect in sync with state.",
     component: Day04,
+  },
+  {
+    slug: "day-05-lists-keys",
+    index: 5,
+    date: "2026-08-24",
+    concept: "lists & keys",
+    summary:
+      "A task list — rendering an array with map(), and why each item needs a stable key instead of its array index.",
+    component: Day05,
   },
 ];
