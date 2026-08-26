@@ -3,6 +3,7 @@ import Day02 from "../days/day02-state-usestate/Day02.jsx";
 import Day03 from "../days/day03-lifting-state-up/Day03.jsx";
 import Day04 from "../days/day04-useeffect/Day04.jsx";
 import Day05 from "../days/day05-lists-keys/Day05.jsx";
+import Day06 from "../days/day06-refs-useref/Day06.jsx";
 
 // Single source of truth for the home page log and the router.
 // Adding a day = new folder in src/days + one entry here.
@@ -51,5 +52,14 @@ export const days = [
     summary:
       "A task list — rendering an array with map(), and why each item needs a stable key instead of its array index.",
     component: Day05,
+  },
+  {
+    slug: "day-06-refs-useref",
+    index: 6,
+    date: "2026-08-25",
+    concept: "refs & useRef",
+    summary:
+      "A self-focusing search input — using useRef for DOM access and for values that persist across renders without triggering one.",
+    component: Day06,
   },
 ];
