@@ -4,6 +4,7 @@ import Day03 from "../days/day03-lifting-state-up/Day03.jsx";
 import Day04 from "../days/day04-useeffect/Day04.jsx";
 import Day05 from "../days/day05-lists-keys/Day05.jsx";
 import Day06 from "../days/day06-refs-useref/Day06.jsx";
+import Day07 from "../days/day07-context-usecontext/Day07.jsx";
 
 // Single source of truth for the home page log and the router.
 // Adding a day = new folder in src/days + one entry here.
@@ -61,5 +62,14 @@ export const days = [
     summary:
       "A self-focusing search input — using useRef for DOM access and for values that persist across renders without triggering one.",
     component: Day06,
+  },
+  {
+    slug: "day-07-context-usecontext",
+    index: 7,
+    date: "2026-08-26",
+    concept: "context & useContext",
+    summary:
+      "A nested dashboard reading a shared session — using useContext to skip prop drilling through components that don't need the data.",
+    component: Day07,
   },
 ];

@@ -65,7 +65,7 @@ export default function Day06() {
           ref={inputRef}
           type="text"
           value={query}
-          onChange={handleChange}
+          onChange={(e) => setQuery(e.target.value)}
           placeholder="type something"
           className="mt-2 w-full rounded-md border border-line bg-ink px-3 py-2 font-mono text-sm text-paper focus:border-amber focus:outline-none"
         />
