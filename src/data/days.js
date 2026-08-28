@@ -5,6 +5,7 @@ import Day04 from "../days/day04-useeffect/Day04.jsx";
 import Day05 from "../days/day05-lists-keys/Day05.jsx";
 import Day06 from "../days/day06-refs-useref/Day06.jsx";
 import Day07 from "../days/day07-context-usecontext/Day07.jsx";
+import Day08 from "../days/day08-usereducer/Day08.jsx";
 
 // Single source of truth for the home page log and the router.
 // Adding a day = new folder in src/days + one entry here.
@@ -71,5 +72,14 @@ export const days = [
     summary:
       "A nested dashboard reading a shared session — using useContext to skip prop drilling through components that don't need the data.",
     component: Day07,
+  },
+  {
+    slug: "day-08-usereducer",
+    index: 8,
+    date: "2026-08-27",
+    concept: "useReducer",
+    summary:
+      "A counter with undo — using useReducer to keep a count and its history in sync as one atomic state transition instead of two useState calls.",
+    component: Day08,
   },
 ];
